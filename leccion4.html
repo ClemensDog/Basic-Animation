@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leccion_3</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background: pink;
+            animation: animatation_name 5s 1s 2;
+            animation-direction: forwards;
+/*            si no se especifica tiempo para la animacion, el default es "cero" lo que quiere decir que la animacion no va a servir., en este caso, el "5s" es 5 segundos de duracion, el "10" significa que va a repetir 10 veces., podria ser infinito, el "1s" es un delay, */
+        }
+
+
+        @keyframes animatation_name{
+            25%{
+                transform: translateX(50vw)
+                rotate(960deg)
+                scale(2)
+
+            }
+            50%{
+                background: green;
+                transform: translateX(50vw) translateY(50vh);
+            }
+            75%{
+                background: red;
+                transform: translateY(50vh)
+            }
+            100%{
+                transform:
+                background: yellow;
+                transform: translateX(25vw) translateY(25vh);
+
+
+
+            }
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="t1">t1</div>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leccion_3</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background: pink;
+        }
+
+        .t1 {
+            animation: animtation_name 4s;
+        }
+
+        .t2 {
+            animation: animtation_name 8s;
+        }
+
+/*
+        @keyframes animtation_name {
+            to {
+                width: 700px;
+            }
+*/
+        @keyframes animtation_name{
+            50%{
+                background: green;
+                width: 700px;
+            }
+            100%{
+                background: yellow;
+                width: 700px;
+            }
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="t1">t1</div>
+    <div class="t2">t2</div>
+
+</body>
+</html>

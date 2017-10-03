@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        <link rel="stylesheet" href="">span div {
+            display: inline-block
+        }
+/*///////////////////////////////////////////////////////*/
+        .box1 {
+            width: 10vw;
+            height: 10vh;
+            background-color: aqua;
+            border: 1px solid #000;
+            transition: all 3s;
+        }
+
+        .box1:hover {
+            width: 100vw;
+            height: 10vw;
+            border-radius: 50%;
+            transition: 1px solid #000;
+        }
+/*///////////////////////////////////////////////////////*/
+        .box2 {
+            width: 10vw;
+            height: 10vh;
+            background-color: deeppink;
+            border: 1px solid #000;
+            transition:
+                width 1s,
+                height 1s 1s,
+                border-radius 1s 2s;
+        }
+
+        .box2:hover {
+            width: 20vw;
+            height: 20vw;
+            border-radius: 50%;
+        }
+/*///////////////////////////////////////////////////////*/
+        .box3 {
+            width: 10vw;
+            height: 10vh;
+            background-color: green;
+            border: 1px solid #000;
+            transition:
+                width 2s,
+                height 2s,
+                border-radius 2s 2s,
+                transform 4s;
+        }
+
+        .box3:hover {
+            width: 20vw;
+            height: 20vw;
+            border-radius: 50%;
+            transform: rotate(270deg);
+        }
+/*///////////////////////////////////////////////////////*/
+        .box4 {
+            width: 10vw;
+            height: 10vh;
+            background-color: yellow;
+            border: 1px solid #000;
+            transition: 4s;
+
+        }
+
+        .box4:hover {
+            width: 20vw;
+            height: 20vw;
+            border-radius: 50%;
+            transform: translateX(50vw) rotate(180deg)
+        }
+/*///////////////////////////////////////////////////////*/
+        .box5 {
+            width: 10vw;
+            height: 10vh;
+            background-color: orangered;
+            border: 1px solid #000;
+            transition: 4s;
+        }
+
+        .box5:hover {
+            width: 20vw;
+            height: 20vw;
+            border-radius: 50%;
+        }
+/*///////////////////////////////////////////////////////*/
+        .box6 {
+            width: 10vw;
+            height: 10vh;
+            background-color: blueviolet;
+            border: 1px solid #000;
+        }
+
+        .box6:hover {
+            width: 20vw;
+            height: 20vw;
+            border-radius: 50%;
+        }
+
+/*///////////////////////////////////////////////////////*/
+
+
+    </style>
+    <title></title>
+
+</head>
+
+<body>
+    <span>
+    <div class="box1"></div>
+    <div class="box2">2</div>
+    <div class="box3">3</div>
+    <div class="box4">4</div>
+    <div class="box5">5</div>
+    <div class="box6">6</div>
+    </span>
+</body>
+</html>
